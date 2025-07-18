@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyword Monitor</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 10px; }
+    h1 { font-size: 1.4em; margin-bottom: 10px; }
+    p { font-size: 1.1em; }
+    .keywords-list { margin-top: 20px; }
+    .keyword-item { margin-bottom: 5px; font-size: 1em; }
+    .keyword-item span { font-weight: bold; }
+    .status { color: green; font-weight: bold; }
+    .error { color: red; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Keyword Monitor</h1>
+  <p>Monitoring searches for specific keywords:</p>
+
+  <div class="keywords-list">
+    <div class="keyword-item"><span>sad songs</span>: Searching for sad songs.</div>
+    <div class="keyword-item"><span>suicide</span>: Searching for suicide-related content.</div>
+    <div class="keyword-item"><span>breakup</span>: Searching for breakup recovery tips.</div>
+    <div class="keyword-item"><span>headache</span>: Searching for headache remedies.</div>
+    <div class="keyword-item"><span>alone</span>: Searching for feelings of loneliness.</div>
+  </div>
+
+  <button id="getKeywords">Get Logged Keywords</button>
+
+  <ul id="keywordsList"></ul> <!-- List for displaying fetched keywords -->
+
+  <p>Status: <span class="status">Running</span></p>
+  <p class="error"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

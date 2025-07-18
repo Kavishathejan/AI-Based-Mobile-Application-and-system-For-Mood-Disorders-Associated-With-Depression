@@ -1,0 +1,89 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0 # Updated version to match override
+  youtube_player_iframe: ^5.2.1
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.5.1
+  webview_flutter: ^4.10.0
+  google_generative_ai: ^0.4.6
+  flutter_chat_ui: ^1.6.15
+  provider: ^6.0.0
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  google_sign_in: ^6.2.2
+  cloud_firestore: ^5.6.5
+  firebase_database: 11.3.4
+  flutter_dotenv: ^5.2.1
+  firebase_messaging: 15.2.4
+  flutter_local_notifications: 18.0.1
+  web_socket_channel: ^3.0.2
+  intl: ^0.18.1
+  #youtube_player_flutter: ^8.1.2
+  url_launcher: ^6.1.10
+  image_picker: ^0.8.7+4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/11.png
+    - lib/assets/1.png
+    - lib/assets/2.png
+    - lib/assets/parent.png
+    - lib/assets/patient.png
+    - lib/assets/3.png
+    - lib/assets/apple-icon.png
+    - lib/assets/google-icon.png
+    - lib/assets/chat.png
+    - lib/assets/results.png
+    - lib/assets/user.png
+    - lib/assets/gear.png
+    - lib/assets/securitylock.png
+    - lib/assets/logout.png
+    - lib/assets/home1.png
+    - lib/assets/home.png
+    - lib/assets/sms.png
+    - lib/assets/funny.png
+    - lib/assets/Male.png
+    - lib/assets/go.png
+    - lib/assets/img.png
+    - lib/assets/girl.png
+    - lib/assets/sad.png
+    - lib/assets/normal.png
+    - lib/assets/lovely.png
+    - lib/assets/depressed.png
+    - lib/assets/angry.png
+    - lib/assets/morning.png
+    - lib/assets/afternoon.png
+    - lib/assets/night.png
+    - lib/assets/load.png
+    - lib/assets/reflection.png
+    - lib/assets/laughing_therapy.png
+    - lib/assets/self_care.png
+    - lib/assets/journaling.png
+    - lib/assets/deep_breathing.png
+    - lib/assets/stretching.png
+    - lib/assets/hydration.png
+    - lib/assets/reading.png
+    - lib/assets/tea.png
+    - lib/assets/music.png
+    - lib/assets/creative_activity.png
+    - lib/assets/healthy_snack.png
+    - lib/assets/yoga.png

@@ -1,0 +1,56 @@
+# -------------------------------
+# Flutter / Dart
+# -------------------------------
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.idea/
+android/.gradle/
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+macos/.symlinks/
+windows/flutter/ephemeral/
+*.iml
+
+# VS Code settings
+.vscode/
+
+# Auto-generated files
+pubspec.lock
+
+# Platform folders (if not manually edited)
+# Remove these lines if you want to keep iOS/Android config tracked
+ios/Flutter/
+android/.settings/
+linux/flutter/
+web/flutter/
+windows/flutter/
+
+# -------------------------------
+# Node.js Backend
+# -------------------------------
+word extension and backend/backend/node_modules/
+word extension and backend/backend/log.json
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# -------------------------------
+# Chrome Extension
+# (Only if you generate build output)
+# -------------------------------
+word extension and backend/chrome-extension/dist/
+word extension and backend/chrome-extension/build/
+
+# -------------------------------
+# OS / Miscellaneous
+# -------------------------------
+.DS_Store
+Thumbs.db
+.env
+*.log
+
