@@ -16,8 +16,7 @@ class _ChatScreenState extends State<ChatScreen>
   final TextEditingController _controller = TextEditingController();
   List<Map<String, String>> messages = [];
 
-  final String apiKey =
-      "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";
+  final String apiKey = "Create an OpenRouter API key and update here with it";
 
   int _selectedIndex = 0;
 
